@@ -59,3 +59,7 @@ Ejecuta `npm run build` y `npm start`. El backend sirve el frontend compilado y 
 `npm test`: reglas horarias, zona de Santiago, OAuth/estado/cuenta correcta, cifrado, disponibilidad, duplicados, reservas simultáneas y recuperación de respuestas ambiguas, con Google simulado. No escribe eventos reales.
 
 `npm run build`: compilación del frontend.
+
+## Vista previa en GitHub Pages
+
+La vista previa se publica en https://briveraac.github.io/mussas/ mediante el workflow de GitHub Actions al actualizar main. Compila con GITHUB_PAGES=true y VITE_STATIC_PREVIEW=true: los recursos usan /mussas/ y el formulario permite solicitudes por WhatsApp sin consultar un backend. Las horas y cotizaciones son orientativas; no se crean eventos en Google Calendar. El servidor y sus secretos no se publican en Pages.
